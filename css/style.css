@@ -20,7 +20,7 @@ body{
 
 .checker-div_active{
     height: 30vh;
-    width: 50vw;
+    width: max-content;
     background-color: #2EB872;
     text-align: center;
     margin: 20px auto;
@@ -109,7 +109,7 @@ input:focus{
 @media screen and (max-width:700px){
     .checker-div_active{
         height: 300px;
-        width: 300px;
+        width: max-content;
         background-color: #2EB872;
         text-align: center;
         margin: 20px auto;
